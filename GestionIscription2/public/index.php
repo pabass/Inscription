@@ -1,0 +1,20 @@
+<?php
+require_once("../model/User.php");
+require_once("../model/RP.php");
+$rp=new RP;
+$rp->setId(1);
+$rp->setLogin("pabass");
+$rp->setPassword("bass");
+echo $rp->getRole("br");
+echo $rp->getLogin();
+$etudiant=new Etudiant;
+$etudiant->setNomComplet("bass ndiaye");
+$etudiant->setId("13569739");
+$etudiant->setTuteur("Pere: laye");
+$etudiant->setLogin("Pabass");
+$etudiant->setPassword("password123");
+echo $etudiant->getId();
+echo $etudiant->getNomComplet();
+echo $etudiant->getLogin();
+echo $etudiant->getRole();
+echo $etudiant->getTuteur();
