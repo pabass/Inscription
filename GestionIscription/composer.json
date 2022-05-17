@@ -1,0 +1,12 @@
+{
+    "name": "dell/gestion-iscription",
+    "description": "n",
+    "autoload": {
+        "psr-4": {
+            "APP\\Model\\": "model/",
+            "APP\\Controller\\": "controllers/",
+            "APP\\Core\\": "core/"
+        }
+    },
+    "require": {}
+}
