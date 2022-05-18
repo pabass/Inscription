@@ -3,9 +3,10 @@
     "description": "n",
     "autoload": {
         "psr-4": {
-            "APP\\Model\\": "model/",
-            "APP\\Controller\\": "controllers/",
-            "APP\\Core\\": "core/"
+            "App\\Model\\": "model/",
+            "App\\Controller\\": "controllers/",
+            "App\\Core\\": "core/",
+            "App\\Exceptions\\": "exceptions/"
         }
     },
     "require": {}
